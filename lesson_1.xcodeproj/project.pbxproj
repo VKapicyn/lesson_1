@@ -13,6 +13,8 @@
 		AAD3358D25DBA60D00F2C25A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD3358B25DBA60D00F2C25A /* Main.storyboard */; };
 		AAD3358F25DBA61200F2C25A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD3358E25DBA61200F2C25A /* Assets.xcassets */; };
 		AAD3359225DBA61200F2C25A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD3359025DBA61200F2C25A /* LaunchScreen.storyboard */; };
+		AAD3359B25DBB58900F2C25A /* CalcController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD3359A25DBB58900F2C25A /* CalcController.swift */; };
+		AAD3359F25DBB7CB00F2C25A /* CalcModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD3359E25DBB7CB00F2C25A /* CalcModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AAD3358E25DBA61200F2C25A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAD3359125DBA61200F2C25A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAD3359325DBA61200F2C25A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAD3359A25DBB58900F2C25A /* CalcController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcController.swift; sourceTree = "<group>"; };
+		AAD3359E25DBB7CB00F2C25A /* CalcModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				AAD3358525DBA60D00F2C25A /* AppDelegate.swift */,
 				AAD3358725DBA60D00F2C25A /* SceneDelegate.swift */,
+				AAD3359A25DBB58900F2C25A /* CalcController.swift */,
 				AAD3358925DBA60D00F2C25A /* ViewController.swift */,
 				AAD3358B25DBA60D00F2C25A /* Main.storyboard */,
 				AAD3358E25DBA61200F2C25A /* Assets.xcassets */,
 				AAD3359025DBA61200F2C25A /* LaunchScreen.storyboard */,
 				AAD3359325DBA61200F2C25A /* Info.plist */,
+				AAD3359E25DBB7CB00F2C25A /* CalcModel.swift */,
 			);
 			path = lesson_1;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			files = (
 				AAD3358A25DBA60D00F2C25A /* ViewController.swift in Sources */,
 				AAD3358625DBA60D00F2C25A /* AppDelegate.swift in Sources */,
+				AAD3359B25DBB58900F2C25A /* CalcController.swift in Sources */,
 				AAD3358825DBA60D00F2C25A /* SceneDelegate.swift in Sources */,
+				AAD3359F25DBB7CB00F2C25A /* CalcModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
